@@ -44,7 +44,7 @@
     </div>
     <div class="home-banner-content">
         <h2 class="slogan-main">En el origen éramos unx</h2>
-        <div class="play-video">
+        <div class="play-video custom-border-btn">
             <p>Play Video</p>
             <div class="arrow">
                 <div class="elementor-icon"> 

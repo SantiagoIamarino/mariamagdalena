@@ -3,6 +3,8 @@ body {
     font-weight: 300;
 }
 
+/* --------------------------------First banner START-------------------------------- */
+
 header .main-menu {
     position: absolute;
     top:0;
@@ -225,25 +227,27 @@ header .main-menu nav li.main-title h1 {
     transition: 1.5s all ease;
 }
 
-
 .home-banner-content .slogan-main:hover {
     word-spacing: 4vw;
 }
 
 .home-banner-content .play-video {
     margin-top: 15vh;
+}
+
+.custom-border-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
 
-.home-banner-content .play-video:hover p {
+.custom-border-btn:hover p {
     word-spacing: 5px;
     margin-right: 20px;
 }
 
-.home-banner-content .play-video p {
+.custom-border-btn p {
     color: white;
     margin-bottom: 0;
     font-size: 19px;
@@ -260,6 +264,10 @@ header .main-menu nav li.main-title h1 {
         font-size: 35px !important;
     }
 }
+
+/* ---------------------------------First banner END---------------------------------- */
+
+/* --------------------------------Second banner START-------------------------------- */
 
 .products-slider-section {
     z-index: 0 !important;
@@ -299,16 +307,187 @@ header .main-menu nav li.main-title h1 {
     }
 }
 
-/*
-@media (min-aspect-ratio: 16/9) {
-    .home-video iframe {
-      height: 56.25vw !important;
+/* --------------------------------Second banner END-------------------------------- */
+
+/* --------------------------------Third banner START------------------------------- */
+
+.about-us .section-container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.about-us .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 0;
+}
+
+.about-us .background .background-container {
+    position: relative;
+}
+
+.about-us .background .background-container .trigger {
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.about-us .background .background-container .trigger::before {
+    content: "";
+    display: block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: white;
+    transition: .4s all ease;
+}
+
+.about-us .background .background-container .trigger:hover::before{
+    background: transparent;
+    border: 1px solid white;
+    height: 160px;
+    width: 160px;
+    margin-left: -75px;
+    margin-top: -75px;
+}
+
+.about-us .background .background-container .trigger-1 {
+    top: 16%;
+    left: 49.6%;
+}
+
+.about-us .background .background-container .trigger-2 {
+    top: 52%;
+    left: 26.6%;
+}
+
+.about-us .background .background-container .trigger-3 {
+    top: 52%;
+    left: 73.7%;
+}
+
+.about-us .about-us-img {
+    position: absolute;
+    top: 10%;
+    left:10%;
+    opacity: 0;
+    transition: .8s opacity ease;
+}
+
+.about-us .about-us-img.no-index {
+    z-index:-2;
+} 
+
+.about-us .about-us-img.active{
+    opacity: 1;
+    z-index:2;
+}
+
+.about-us .about-us-img.img-1{
+    top: 39%;
+    left: 52%;
+}
+
+.about-us .about-us-img.img-2{
+    top: 15%;
+    left:15%;
+}
+
+.about-us .about-us-img.img-3{
+    top: 10%;
+    left: 45%;
+
+}
+
+.about-us .background img.section-bg {
+    min-height: 100vh;
+    min-width: 100vw;
+    max-width: unset;
+    vertical-align: top;
+}
+
+.about-us .main-content {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'SuisseIntl', sans-serif;
+    transform: translate(50%,-50%);
+}
+
+.about-us .main-content .section-name {
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 0 !important;
+}
+
+.about-us .main-content .section-title h2 {
+    font-size: 8vh;
+    max-width: 800px;
+    margin-bottom: 40px ;
+    margin-top: 20px;
+    font-family: "Trirong", Sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .about-us .main-content {
+        min-width: 90%;
     }
-  }
-      
-@media (max-aspect-ratio: 16/9) {
-    .home-video iframe {
-        width: 177.78vh !important;
+
+    .about-us .main-content .section-title h2 {
+        font-size: 50px;
+    }
+
+    .about-us .background .background-container .trigger-1 {
+        top: 16.5%;
+        left: 49.4%;
+    }
+
+    .about-us .background .background-container .trigger-2 {
+        top: 72%;
+        left: 41%;
+    }
+
+    .about-us .background .background-container .trigger-3 {
+        top: 72%;
+        left: 58.3%;
+    }
+
+    .about-us .about-us-img.img-1 {
+        top: 67%;
+        left: 4%;
+        right: 4%;
+    }
+
+    .about-us .about-us-img.img-2 {
+        top: 35%;
+        left: 4%;
+        right: 4%;
+    }
+
+    .about-us .about-us-img.img-3 {
+        top: 20%;
+        left: 4%;
+        right: 4%;
+    }
+
+}
+
+@media screen and (max-height: 700px) {
+    .about-us .background .background-container {
+        margin-top: -7vh;
     }
 }
-*/

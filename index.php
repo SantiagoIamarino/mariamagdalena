@@ -61,6 +61,8 @@
 
 			<?php require('./sections/products-slider.php') ?>
 
+			<?php require('./sections/banner3.php') ?>
+
 
 			<!-- <section class="elementor-section
 					elementor-top-section elementor-element elementor-element-66d7492
@@ -575,8 +577,8 @@
 						</div>
 					</div>
 				</div>
-			</section>
-			<section class="elementor-section elementor-top-section elementor-element
+			</section> -->
+			<!-- <section class="elementor-section elementor-top-section elementor-element
 					elementor-element-203d6bb elementor-section-full_width
 					elementor-section-height-min-height banner4b
 					elementor-section-height-default elementor-section-items-middle" data-id="203d6bb" data-element_type="section"
