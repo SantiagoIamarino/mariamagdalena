@@ -491,3 +491,282 @@ header .main-menu nav li.main-title h1 {
         margin-top: -7vh;
     }
 }
+
+/* ---------------------------------Third banner END--------------------------------- */
+
+/* --------------------------------Fourth banner START------------------------------- */
+
+.nuestros-pilares .section-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.nuestros-pilares .main-content {
+    position: absolute;
+    top: 12%;
+    right: 50%;
+    z-index: 2;
+    color: white;
+    font-family: 'SuisseIntl', sans-serif;
+    transform: translate(50%,-50%);
+    text-align: center;
+}
+
+.nuestros-pilares .main-content .section-name {
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 0 !important;
+    text-transform: uppercase;
+}
+
+.nuestros-pilares .main-content .section-title {
+    transition: .8s all ease;
+    opacity: 1;
+}
+
+.nuestros-pilares .main-content .section-title.no-show {
+    transition: .8s all ease;
+    position: absolute;
+    min-width: 1000vw;
+    text-align: center;
+    opacity: 0;
+}
+
+.nuestros-pilares .main-content .section-title h2 {
+    font-size: 8vh;
+    margin: 80px 0 ;
+    font-family: "Trirong", Sans-serif;
+}
+
+.nuestros-pilares .main-content .contents > div {
+    position: absolute;
+    opacity: 0;
+    height: 0 !important;
+    font-family: "Trirong", Sans-serif;
+    font-size: 30px;
+    transition: .8s opacity ease;
+    /* overflow: hidden; */
+}
+
+.nuestros-pilares .main-content .section-title,
+.nuestros-pilares .main-content .contents > div.active {
+    position: relative;
+    height: 150px !important;
+}
+
+.nuestros-pilares .main-content .contents > div.active {
+    opacity: 1;
+    margin: 40px 0;
+}
+
+.nuestros-pilares .main-content .contents > div > p,
+.nuestros-pilares .main-content .contents > div .d-flex p:first-child {
+    left: -30vw;
+}
+
+.nuestros-pilares .main-content .contents > div .d-flex p:last-child {
+    right: -30vw;
+}
+
+.nuestros-pilares .main-content .contents > div.active > p,
+.nuestros-pilares .main-content .contents > div.active .d-flex p:first-child {
+    left: 0px;
+}
+
+.nuestros-pilares .main-content .contents > div.active .d-flex p:last-child {
+    right: 0px;
+}
+
+.nuestros-pilares .main-content .contents > div .d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nuestros-pilares .main-content .contents > div p {
+    margin-bottom: 0 !important;
+    text-align: start !important;
+    transition: .8s all ease;
+    position: relative;
+}
+
+.nuestros-pilares .main-content .contents > div#content_1 .d-flex p:first-child {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.nuestros-pilares .main-content .contents > div#content_1 p.third {
+    margin-left:-5vw;
+}
+
+.nuestros-pilares .main-content .contents > div#content_1 p:last-child{
+    text-align: end !important;
+}
+
+.nuestros-pilares .background-container{
+    position: relative;
+}
+
+.nuestros-pilares .main-content .contents > div#content_2 .d-flex p:first-child{
+    margin-left: -8vw;
+}
+
+.nuestros-pilares .main-content .contents > div#content_2 .d-flex p:last-child {
+    margin-right: -10vw;
+}
+
+.nuestros-pilares .main-content .contents > div#content_2 p:last-child {
+    margin-left: 14vw;
+}
+
+.nuestros-pilares .main-content .contents > div#content_3 {
+    width: 900px;
+    max-width: 80vw;
+}
+
+.nuestros-pilares .main-content .contents > div#content_3 .d-flex p:first-child {
+    margin-left: -3vw;
+}
+
+.nuestros-pilares .main-content .contents > div#content_3 .d-flex p:last-child {
+    margin-right: -3vw;
+}
+
+.nuestros-pilares .main-content .contents > div#content_3 p.third {
+    text-align: center !important;
+}
+
+.nuestros-pilares .main-content .contents > div#content_3 .d-flex:last-child p:first-child {
+    margin-left: 2vw;
+}
+
+.nuestros-pilares .main-content .contents > div#content_3 .d-flex:last-child p:last-child {
+    margin-right: -10vw;
+}
+
+.nuestros-pilares .flotant-imgs {
+    position: absolute;
+    width: 100%;
+    top: 18%;
+    display: flex;
+}
+
+.nuestros-pilares .flotant-imgs .flotant-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    cursor: pointer;
+    position: relative;
+}
+
+.nuestros-pilares .flotant-imgs .flotant-img .flotant {
+    margin-bottom: 8vh;
+    position: relative;
+    z-index:1;
+}
+.nuestros-pilares .flotant-imgs .flotant-img .text {
+    position: absolute;
+    top: 30%;
+    z-index: 0;
+    opacity: 0;
+    transition: .8s all ease;
+}
+
+.nuestros-pilares .flotant-imgs .flotant-img .text p {
+    margin-bottom: 0;
+    font-size: 68px;
+    font-family: "Trirong", Sans-serif;
+    color: white;
+}
+
+.nuestros-pilares .flotant-imgs .flotant-img .flotant img,
+.nuestros-pilares .flotant-imgs .flotant-img .shadow {
+    transition: .8s all ease;
+}
+
+.nuestros-pilares .flotant-imgs .flotant-img.img-2 .shadow {
+    margin-bottom: -12vh;
+}
+
+.nuestros-pilares .flotant-imgs .flotant-img.img-3 .shadow .flotant {
+    margin-bottom: 15vh;
+}
+
+.nuestros-pilares .flotant-imgs .flotant-img.img-3 .shadow {
+    margin-bottom: -10vh;
+}
+
+@media screen and (max-width: 1750px) {
+    .nuestros-pilares .flotant-imgs .flotant-img.img-2 .shadow {
+        margin-bottom: -10vh;
+    }
+    
+    .nuestros-pilares .flotant-imgs .flotant-img.img-3 .shadow {
+        margin-bottom: -8vh;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .nuestros-pilares .flotant-imgs .flotant-img.img-2 .shadow {
+        margin-bottom: -15%;
+    }
+    
+    .nuestros-pilares .flotant-imgs .flotant-img.img-3 .shadow {
+        margin-bottom: -12%;
+    }
+}
+
+
+@media screen and (max-width: 1600px) {
+    .nuestros-pilares .flotant-imgs .flotant-img.img-2 .shadow {
+        margin-bottom: -70px;
+    }
+    
+    .nuestros-pilares .flotant-imgs .flotant-img.img-3 .shadow {
+        margin-bottom: -50px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .nuestros-pilares .flotant-imgs .flotant-img.img-2 .shadow {
+        margin-bottom: -11%;
+    }
+    
+    .nuestros-pilares .flotant-imgs .flotant-img.img-3 .shadow {
+        margin-bottom: -6%;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .nuestros-pilares .flotant-imgs .flotant-img.img-2 .shadow {
+        margin-bottom: -45px;
+    }
+    
+    .nuestros-pilares .flotant-imgs .flotant-img.img-3 .shadow {
+        margin-bottom: 0px
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .nuestros-pilares .flotant-imgs {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.nuestros-pilares .flotant-imgs .flotant-img.active .text {
+    opacity: 1;
+}
+
+.nuestros-pilares .flotant-imgs .flotant-img.active .flotant img,
+.nuestros-pilares .flotant-imgs .flotant-img.initial .flotant img {
+    opacity: 0;
+    transform: translateY(-50%);
+}
+
+.nuestros-pilares .flotant-imgs .flotant-img.active .shadow,
+.nuestros-pilares .flotant-imgs .flotant-img.initial .shadow {
+    transform: scale(0.2);
+}
