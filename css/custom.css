@@ -959,4 +959,54 @@ header .main-menu nav li.main-title h1 {
     }
 }
 
+/* ---------------------------------Fourth banner END--------------------------------- */
 
+/* ---------------------------------Fifth banner START------------------------------- */
+
+@media screen and (max-width: 1200px) {
+    .tocarme-section-title .section-title {
+        margin-top: 60px;
+    }
+
+    #tocarme .image-items {
+        display: none;
+    }
+
+    #tocarme .numbers-container {
+        display: none;
+    }
+
+    #tocarme .image-wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #tocarme {
+        margin-bottom: 20px;
+    }
+    .elementor-167 .elementor-element.elementor-element-4841a26 {
+        margin-top: -10%;
+    }
+
+    .icons-container {
+        justify-content: center;
+    }
+
+    .icons-container > div {
+        width: 33% !important;
+    }
+    .skinfood-section {
+        margin-top: 0 !important;
+    }
+
+    .skinfood-text-content {
+        width: 100%;
+    }
+
+    .cosmetica-title {
+        max-width: 100%;
+        text-align: center;
+        font-size: 40px !important;
+    }
+}

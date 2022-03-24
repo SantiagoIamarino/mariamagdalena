@@ -68,7 +68,7 @@
 			<section class="elementor-section elementor-top-section elementor-element
 					elementor-element-0607e98 elementor-section-boxed
 					elementor-section-height-default elementor-section-height-default" data-id="0607e98" data-element_type="section">
-				<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-container elementor-column-gap-default tocarme-section-title">
 					<div class="elementor-column elementor-col-100 elementor-top-column
 							elementor-element elementor-element-5ec7e8c" data-id="5ec7e8c" data-element_type="column">
 						<div class="elementor-widget-wrap
@@ -77,7 +77,7 @@
 									elementor-element-8375677 elementor-widget elementor-widget-heading" data-id="8375677"
 								data-element_type="widget" data-widget_type="heading.default">
 								<div class="elementor-widget-container">
-									<h2 class="elementor-heading-title
+									<h2 class="elementor-heading-title section-title
 											elementor-size-default">Amo tocarme</h2>
 								</div>
 							</div>
@@ -92,13 +92,13 @@
 				id="tocarme">
 				<div class="elementor-container elementor-column-gap-wide">
 					<div class="elementor-column elementor-col-50 elementor-top-column
-							elementor-element elementor-element-208fc5b" data-id="208fc5b" data-element_type="column">
+							elementor-element elementor-element-208fc5b image-wrapper" data-id="208fc5b" data-element_type="column">
 						<div class="elementor-widget-wrap
 								elementor-element-populated">
 							<section class="elementor-section
 									elementor-inner-section elementor-element elementor-element-1a39ac4
 									elementor-section-boxed elementor-section-height-default
-									elementor-section-height-default" data-id="1a39ac4" data-element_type="section">
+									elementor-section-height-default numbers-container" data-id="1a39ac4" data-element_type="section">
 								<div class="elementor-container
 										elementor-column-gap-default">
 									<div class="elementor-column
@@ -228,7 +228,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="elementor-column elementor-col-50 elementor-top-column
+					<div class="elementor-column elementor-col-50 elementor-top-column image-items
 							elementor-element elementor-element-493f8d4" data-id="493f8d4" data-element_type="column">
 						<div class="elementor-widget-wrap
 								elementor-element-populated">
@@ -1002,7 +1002,7 @@
 				</div>
 			</section>
 			<section class="elementor-section elementor-top-section elementor-element
-					elementor-element-c214d49 elementor-section-boxed
+					elementor-element-c214d49 elementor-section-boxed skinfood-section
 					elementor-section-height-default elementor-section-height-default" data-id="c214d49" data-element_type="section">
 				<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column
@@ -1040,7 +1040,7 @@
 													elementor-element-894696f elementor-widget
 													elementor-widget-text-editor" data-id="894696f" data-element_type="widget"
 												data-widget_type="text-editor.default">
-												<div class="elementor-widget-container">
+												<div class="elementor-widget-container skinfood-text-content">
 													<p>Magdalena Ávalos es una
 														de las fundadoras de María Magdalena y quién, a partir de una
 														experiencia extrema con su propio cuerpo, sintió literalmente
@@ -1133,7 +1133,7 @@
 									elementor-widget-heading" data-id="ae122f8" data-element_type="widget" data-widget_type="heading.default">
 								<div class="elementor-widget-container">
 									<h2 class="elementor-heading-title
-											elementor-size-default">Cosmética Natural Certificada</h2>
+											elementor-size-default cosmetica-title">Cosmética Natural Certificada</h2>
 								</div>
 							</div>
 						</div>
@@ -1322,7 +1322,7 @@
 			<section class="elementor-section elementor-top-section elementor-element
 					elementor-element-e46b833 elementor-section-boxed
 					elementor-section-height-default elementor-section-height-default" data-id="e46b833" data-element_type="section">
-				<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-container elementor-column-gap-default icons-container">
 					<div class="elementor-column elementor-col-16 elementor-top-column
 							elementor-element elementor-element-fef9208 animated-slow
 							elementor-invisible" data-id="fef9208" data-element_type="column"
