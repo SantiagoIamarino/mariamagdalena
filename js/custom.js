@@ -1,4 +1,5 @@
 var $ = jQuery
+let flotantIndex = 1;
 
 // Header
 
@@ -74,8 +75,13 @@ $(window).scroll(function(){
     }
 });
 
-$('.flotant-img .flotant').on('mouseenter', toggleFlotant);
-$('.flotant-img .flotant').on('mouseleave', toggleFlotant);
+if(window.innerWidth <= 1200) {
+    initFlotantSlider();
+} else {
+    $('.flotant-img .flotant').on('mouseenter', toggleFlotant);
+    $('.flotant-img .flotant').on('mouseleave', toggleFlotant);
+
+}
 
 function toggleFlotant(event) {
 
@@ -91,3 +97,63 @@ function toggleFlotant(event) {
     $(parent).toggleClass('active');
     
 }
+
+
+function initFlotantSlider() {
+
+    // Controls
+    if(flotantIndex == 1) {
+        $('.nuestros-pilares .slider-controls .right').show();
+        $('.nuestros-pilares .slider-controls .left').hide();
+        $('.nuestros-pilares .slider-controls').css({
+            'justify-content': 'flex-end'
+        })
+    } else if(flotantIndex == 3) {
+        $('.nuestros-pilares .slider-controls .right').hide();
+        $('.nuestros-pilares .slider-controls .left').show();
+        $('.nuestros-pilares .slider-controls').css({
+            'justify-content': 'flex-start'
+        })
+    } else {
+        $('.nuestros-pilares .slider-controls .right').show();
+        $('.nuestros-pilares .slider-controls .left').show();
+        $('.nuestros-pilares .slider-controls').css({
+            'justify-content': 'space-between'
+        })
+    }
+
+
+    const parent = $(`.nuestros-pilares .img-${flotantIndex}`);
+    const sectionTitle = $(parent).data('title');
+    const target = $(parent).data('target');
+
+    $('#flotants_section_title h2').html(sectionTitle);
+
+    $(`.nuestros-pilares .content.active`).removeClass('active');
+    $(`.nuestros-pilares #content_${target}`).toggleClass('active');
+
+    const left = (-100 * (flotantIndex - 1));
+    $('.nuestros-pilares .flotant-imgs').css({
+        'left': `${left}%`
+    })
+
+}
+
+$('.nuestros-pilares .slider-controls .left').on('click', () => {
+    flotantIndex--;
+    initFlotantSlider();
+})
+
+$('.nuestros-pilares .slider-controls .right').on('click', () => {
+    flotantIndex++;
+    initFlotantSlider();
+})
+
+$(document).ready(function(){
+    $('[data-showme]').on('click', function(){
+        var showme = $(this).attr('data-showme')
+        
+        $('.prods').hide()
+        $('#' + showme).show()
+    })
+})

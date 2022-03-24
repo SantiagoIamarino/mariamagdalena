@@ -40,8 +40,7 @@
 	<link rel='stylesheet' id='google-fonts-1-css'
 		href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CTrirong%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=5.9'
 		type='text/css' media='all' />
-	<link rel='stylesheet' id='elementor-icons-shared-0-css'
-		href='./css/font-awesome.min.css' type='text/css' media='all' />
+	<script src="https://use.fontawesome.com/b6a2b678b0.js"></script>
 	<script type='text/javascript' src='./js/jquery-jquery.min.js'></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,
 			viewport-fit=cover" />
@@ -66,7 +65,7 @@
 			<?php require('./sections/banner4.php') ?>
 
 
-			<!-- <section class="elementor-section elementor-top-section elementor-element
+			<section class="elementor-section elementor-top-section elementor-element
 					elementor-element-0607e98 elementor-section-boxed
 					elementor-section-height-default elementor-section-height-default" data-id="0607e98" data-element_type="section">
 				<div class="elementor-container elementor-column-gap-default">
@@ -1202,7 +1201,7 @@
 													elementor-widget-text-editor" data-id="d2d6685" data-element_type="widget"
 												data-widget_type="text-editor.default">
 												<div class="elementor-widget-container">
-													<p><span style="text-decoration: underline;">Shop now</span></p>
+													<p><span style="text-decoration: underline; margin-bottom: 20px">Shop now</span></p>
 												</div>
 											</div>
 										</div>
@@ -1792,7 +1791,7 @@
 						</div>
 					</div>
 				</div>
-			</section> -->
+			</section>
 		</div>
 	</div>
 	

@@ -10,7 +10,7 @@ header .main-menu {
     top:0;
     left: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 3;
 }
 
 header .main-menu .mobile-header{
@@ -418,7 +418,7 @@ header .main-menu nav li.main-title h1 {
     position: absolute;
     top: 50%;
     right: 50%;
-    z-index: 2;
+    z-index: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -505,7 +505,7 @@ header .main-menu nav li.main-title h1 {
     position: absolute;
     top: 12%;
     right: 50%;
-    z-index: 2;
+    z-index: 0;
     color: white;
     font-family: 'SuisseIntl', sans-serif;
     transform: translate(50%,-50%);
@@ -697,6 +697,25 @@ header .main-menu nav li.main-title h1 {
     margin-bottom: -10vh;
 }
 
+.nuestros-pilares .flotant-imgs .flotant-img.active .text {
+    opacity: 1;
+}
+
+.nuestros-pilares .flotant-imgs .flotant-img.active .flotant img,
+.nuestros-pilares .flotant-imgs .flotant-img.initial .flotant img {
+    opacity: 0;
+    transform: translateY(-50%);
+}
+
+.nuestros-pilares .flotant-imgs .flotant-img.active .shadow,
+.nuestros-pilares .flotant-imgs .flotant-img.initial .shadow {
+    transform: scale(0.2);
+}
+
+.nuestros-pilares .slider-controls {
+    display: none;
+}
+
 @media screen and (max-width: 1750px) {
     .nuestros-pilares .flotant-imgs .flotant-img.img-2 .shadow {
         margin-bottom: -10vh;
@@ -749,24 +768,195 @@ header .main-menu nav li.main-title h1 {
 }
 
 @media screen and (max-width: 1200px) {
+
+    .nuestros-pilares .main-content {
+        top:18%;
+    }
+
+    .nuestros-pilares .main-content .section-title h2 {
+        font-size: 60px;
+    }
+
+    .nuestros-pilares .main-content .section-name {
+        display: none;
+    }
+
     .nuestros-pilares .flotant-imgs {
-        flex-direction: column;
-        align-items: center;
+        top:28%;
+        transition: .8s all ease;
+    }
+
+    .nuestros-pilares .flotant-imgs .flotant-img {
+        min-width: 100%;
+    }
+
+    .nuestros-pilares .flotant-imgs .flotant-img .flotant {
+        margin-bottom: 0 !important;
+    }
+
+    .nuestros-pilares .main-content .contents {
+        width: 100vw;
+        padding: 0 20px;
+    }
+
+    .nuestros-pilares .main-content .contents > .content {
+        width: 100%;
+    }
+
+    .nuestros-pilares .main-content .contents > .content p {
+        margin: 0 !important;
+    }
+
+    .nuestros-pilares .main-content .contents > .content .d-flex {
         justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .nuestros-pilares .main-content .contents > .content .d-flex p:first-child {
+        margin-right: 10px !important;
+    }
+
+    .nuestros-pilares .slider-controls {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        z-index: 10;
+        top: 33%;
+    }
+
+    .nuestros-pilares .slider-controls > div {
+        background: rgba(253, 229, 218, 0.842);
+        padding: 15px 20px;
+    }
+
+    .nuestros-pilares .slider-controls > div i {
+        position: relative;
+        bottom: -3px;
+    }
+
+    .nuestros-pilares .slider-controls > div.left i {
+        left: -4px;
+    }
+
+    .nuestros-pilares .slider-controls > div.right i {
+        right: -4px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .nuestros-pilares .main-content {
+        top: 10%;
+    }
+    
+    .nuestros-pilares .main-content .section-title h2 {
+        margin: 0;
+        font-family: "Trirong", Sans-serif;
+    }
+
+    .nuestros-pilares .main-content .section-title, 
+    .nuestros-pilares .main-content .contents > div.active {
+        height: 40px !important;
+    }
+
+    .nuestros-pilares .main-content .contents > div {
+        font-size: 25px !important;
+    }
+
+    .nuestros-pilares .flotant-imgs {
+        top: 15%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .nuestros-pilares .background-container .section-bg {
+        min-height: 100vh;
+        width: auto !important;
+        max-width: 150%;
+    }
+
+    .nuestros-pilares .main-content .section-title h2 {
+        font-size: 50px;
+    }
+
+    .nuestros-pilares .flotant-imgs {
+        top: 22%;
+    }
+
+    .nuestros-pilares .flotant-imgs .flotant-img .flotant img {
+        max-height: 40vh;
+    }
+
+    .nuestros-pilares .flotant-imgs .flotant-img .shadow img {
+        max-height: 65px;
+    }
+
+    .nuestros-pilares .main-content .contents > .content .d-flex {
+        justify-content: space-between;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    
+    .nuestros-pilares .main-content .section-title h2 {
+        font-size: 45px;
+    }
+
+    .nuestros-pilares .flotant-imgs {
+        top: 25%;
+    }
+
+    .nuestros-pilares .flotant-imgs .flotant-img.img-3 .flotant img {
+        max-height: 35vh;
+        position: relative;
+        bottom: -60px;
+    }
+
+    .nuestros-pilares .flotant-imgs .flotant-img .flotant
+
+    .nuestros-pilares .flotant-imgs .flotant-img .shadow img {
+        max-height: 65px;
+    }
+
+    .nuestros-pilares .slider-controls {
+        top: 45%
+    }
+
+    .nuestros-pilares .main-content .contents > div {
+        font-size: 22px !important;
+    }
+
+    .nuestros-pilares .main-content .contents > div#content_3 .d-flex:last-child p:first-child {
+        margin-left: 30vw !important;
+    }
+
+    .nuestros-pilares .main-content .contents > div#content_2 .d-flex p:first-child {
+        margin-left: 35vw !important;
+    }
+
+    .nuestros-pilares .main-content .contents > div#content_2 > p:last-child {
+        margin-left: 27vw !important;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .nuestros-pilares .main-content .section-title h2 {
+        font-size: 40px;
+        padding:0 10px;
+        position: relative;
+        bottom: -15px;
+    }
+
+    .nuestros-pilares .flotant-imgs .flotant-img .flotant img {
+        position: relative;
+        bottom: -25px;
     }
 }
 
-.nuestros-pilares .flotant-imgs .flotant-img.active .text {
-    opacity: 1;
-}
 
-.nuestros-pilares .flotant-imgs .flotant-img.active .flotant img,
-.nuestros-pilares .flotant-imgs .flotant-img.initial .flotant img {
-    opacity: 0;
-    transform: translateY(-50%);
-}
-
-.nuestros-pilares .flotant-imgs .flotant-img.active .shadow,
-.nuestros-pilares .flotant-imgs .flotant-img.initial .shadow {
-    transform: scale(0.2);
-}

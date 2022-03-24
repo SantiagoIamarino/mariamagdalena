@@ -2,7 +2,11 @@
     <div class="section-container">
         <div class="background">
             <div class="background-container">
-                <img src="./images/08.png" alt="">
+                <picture>
+                <source srcset="./images/08-mobile.jpg" media="(max-width: 1200px)">
+                    <source srcset="./images/08.png">
+                    <img class="section-bg" src="./images/08.png" alt="Flowers" style="width:auto;">
+                </picture>
 
                 <div class="flotant-imgs">
                     <div class="flotant-img initial img-1" data-target="1" data-title="Autoerotismo">
@@ -42,7 +46,14 @@
                     </div>
                 </div>
                
-
+                <div class="slider-controls">
+                    <div class="left">
+                        <i class="fa fa-chevron-left"></i>
+                    </div>
+                    <div class="right">
+                        <i class="fa fa-chevron-right"></i>
+                    </div>
+                </div>
             </div>
         </div>
 
