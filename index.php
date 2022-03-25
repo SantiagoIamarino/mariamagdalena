@@ -3,8 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Nueva
-		Página de Inicio</title>
+	<title>Maria Magdalena</title>
 	<meta name='robots' content='max-image-preview:large' />
 	<link rel='stylesheet' id='hello-elementor-css' href='./css/hello-elementor-style.min.css' type='text/css'
 		media='all' />
@@ -1331,7 +1330,7 @@
 							<div class="elementor-element elementor-element-149b6ae elementor-widget
 									elementor-widget-image" data-id="149b6ae" data-element_type="widget" data-widget_type="image.default">
 								<div class="elementor-widget-container"> <img width="1" height="1"
-										src="http://localhost/wordpress/wp-content/uploads/2022/01/ICONS-FINAL-07.svg"
+										src="./images/ICONS-FINAL-07.svg"
 										class="attachment-large size-large" alt="" loading="lazy" /> </div>
 							</div>
 							<div class="elementor-element elementor-element-62a44b2
@@ -1351,7 +1350,7 @@
 							<div class="elementor-element elementor-element-c5f1ef4 elementor-widget
 									elementor-widget-image" data-id="c5f1ef4" data-element_type="widget" data-widget_type="image.default">
 								<div class="elementor-widget-container"> <img width="1" height="1"
-										src="http://localhost/wordpress/wp-content/uploads/2022/01/ICONS-FINAL-02.svg"
+										src="./images/ICONS-FINAL-02.svg"
 										class="attachment-large size-large" alt="" loading="lazy" /> </div>
 							</div>
 							<div class="elementor-element elementor-element-fb4f822
@@ -1371,7 +1370,7 @@
 							<div class="elementor-element elementor-element-8ec41b6 elementor-widget
 									elementor-widget-image" data-id="8ec41b6" data-element_type="widget" data-widget_type="image.default">
 								<div class="elementor-widget-container"> <img width="1" height="1"
-										src="http://localhost/wordpress/wp-content/uploads/2022/01/ICONS-FINAL-03.svg"
+										src="./images/ICONS-FINAL-03.svg"
 										class="attachment-large size-large" alt="" loading="lazy" /> </div>
 							</div>
 							<div class="elementor-element elementor-element-2f17741
@@ -1391,7 +1390,7 @@
 							<div class="elementor-element elementor-element-25dfdae elementor-widget
 									elementor-widget-image" data-id="25dfdae" data-element_type="widget" data-widget_type="image.default">
 								<div class="elementor-widget-container"> <img width="1" height="1"
-										src="http://localhost/wordpress/wp-content/uploads/2022/01/ICONS-FINAL-04.svg"
+										src="./images/ICONS-FINAL-04.svg"
 										class="attachment-large size-large" alt="" loading="lazy" /> </div>
 							</div>
 							<div class="elementor-element elementor-element-0fb7872
@@ -1411,7 +1410,7 @@
 							<div class="elementor-element elementor-element-389f49d elementor-widget
 									elementor-widget-image" data-id="389f49d" data-element_type="widget" data-widget_type="image.default">
 								<div class="elementor-widget-container"> <img width="1" height="1"
-										src="http://localhost/wordpress/wp-content/uploads/2022/01/ICONS-FINAL-05.svg"
+										src="./images/ICONS-FINAL-05.svg"
 										class="attachment-large size-large" alt="" loading="lazy" /> </div>
 							</div>
 							<div class="elementor-element elementor-element-29b2097
@@ -1431,7 +1430,7 @@
 							<div class="elementor-element elementor-element-c4a35ad elementor-widget
 									elementor-widget-image" data-id="c4a35ad" data-element_type="widget" data-widget_type="image.default">
 								<div class="elementor-widget-container"> <img width="1" height="1"
-										src="http://localhost/wordpress/wp-content/uploads/2022/01/ICONS-FINAL-06.svg"
+										src="./images/ICONS-FINAL-06.svg"
 										class="attachment-large size-large" alt="" loading="lazy" /> </div>
 							</div>
 							<div class="elementor-element elementor-element-b36e366
